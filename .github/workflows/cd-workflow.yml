@@ -44,7 +44,7 @@ jobs:
           npm test
         env:
           CI: true
-  Build-and-Push-Docker-Images:
+  Build-and-Push-to-Docker-Image:
     runs-on: ubuntu-latest
     needs: test
     name: Docker Build, Tag, Push
